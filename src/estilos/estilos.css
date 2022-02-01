@@ -1,0 +1,51 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: #ffbf00;
+}
+
+.imagem {
+    width: 300px;
+}
+
+.valor {
+    position: absolute;
+    top: 230px;
+    color: white;
+    font-size: 30px;
+}
+
+.containerBotao {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.botao {
+    margin: 0 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.botao:hover {
+    background-color: #ffbf00;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .imagem {
+        width: 90%;
+    }
+}
